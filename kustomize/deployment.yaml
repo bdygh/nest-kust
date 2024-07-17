@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: testflux
-        image: bdev/testflux:latest
+        image: bdev/nest-kust:latest
         ports:
         - name: http
           containerPort: 3000
